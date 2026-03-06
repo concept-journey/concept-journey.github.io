@@ -3,7 +3,7 @@ description: AI와 개념의 여정
 url: "https://concept-journey.github.io"
 baseurl: ""
 
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "dark"
 
 locale: "ko-KR"
@@ -21,6 +21,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # 페이지네이션
 paginate: 10
